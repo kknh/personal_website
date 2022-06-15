@@ -4,7 +4,7 @@
 
 .about__container {
 	width: 100%;
-	height: calc(100vh - 80px);
+	height: calc(100vh - 90px);
 }
 
 .about {
@@ -40,7 +40,12 @@
 	gap: 30px;
 }
 
-.about__footer > svg {
+.about__footer > a {
+	text-decoration: none;
+	color: var(--clr-light);
+}
+
+.about__footer svg {
 	font-size: 60px;
 }
 
@@ -65,7 +70,7 @@
 	font-size: 64px;
 	font-weight: 500;
 	margin-bottom: 80px;
-	margin-top: 80px;
+	margin-top: 90px;
 }
 
 .skills__category {

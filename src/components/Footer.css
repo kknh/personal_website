@@ -24,7 +24,12 @@
 	gap: 20px;
 }
 
-.footer__icons > svg {
+.footer__icons > a {
+	text-decoration: none;
+	color: var(--clr-light);
+}
+
+.footer__icons svg {
 	font-size: 36px;
 }
 

@@ -12,9 +12,23 @@ const Home = () => {
 						A software developer with a passion for learning and creating.
 					</h2>
 					<div className="about__footer">
-						<LinkedInIcon />
-						<EmailIcon />
-						<GithubIcon />
+						<a
+							href="https://www.linkedin.com/in/kun-ho-kim-1377a377/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<LinkedInIcon />
+						</a>
+						<a href="mailto:kimkunho@live.com">
+							<EmailIcon />
+						</a>
+						<a
+							href="https://www.github.com/kknh"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<GithubIcon />
+						</a>
 					</div>
 				</div>
 			</section>
