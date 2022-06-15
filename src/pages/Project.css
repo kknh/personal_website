@@ -26,10 +26,16 @@
 
 @media screen and (min-width: 960px) {
 	.back {
-		position: absolute;
+		position: relative;
 		top: -100px;
 		left: 0;
 		z-index: 1;
+	}
+}
+
+@media screen and (max-height: 680px) {
+	.back {
+		top: -50px;
 	}
 }
 
