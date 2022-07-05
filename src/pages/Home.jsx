@@ -36,7 +36,7 @@ const Home = () => {
 				<div className="skills">
 					<h1 className="skills__title">Skills</h1>
 					<h2 className="skills__category">Front-End</h2>
-					<div className="skills__content">ReactJS, HTML, CSS</div>
+					<div className="skills__content">ReactJS, Redux, HTML, CSS</div>
 					<h2 className="skills__category">Languages</h2>
 					<div className="skills__content">Javascript</div>
 				</div>

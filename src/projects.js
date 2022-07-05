@@ -1,6 +1,7 @@
 import groceryImg from './images/project_grocery.png'
 import quizImg from './images/project_quiz.png'
 import redditImg from './images/project_reddit.png'
+import minigramImg from './images/project_minigram.png'
 const projects = {
 	grocery: {
 		id: '1',
@@ -28,6 +29,16 @@ const projects = {
 		tech: 'ReactJS, HTML, CSS',
 		url: 'https://courageous-pika-b6243c.netlify.app',
 		github: 'https://github.com/kknh/Reddit_UI_clone',
+	},
+	minigram: {
+		id: '4',
+		title: 'Minigram',
+		image: minigramImg,
+		desc: 'Simple social media app inspired by Instagram.',
+		tech: 'Redux, ReactJS, HTML, CSS, Firebase, Json-server',
+		url: 'https://minigram.vercel.app',
+		github:
+			'https://github.com/kknh/Minigram---simple-social-media-app-inspired-by-Instagram',
 	},
 }
 

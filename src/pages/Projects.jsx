@@ -2,6 +2,7 @@ import './Projects.css'
 import Reddit from '../images/project_reddit.png'
 import Quiz from '../images/project_quiz.png'
 import Grocery from '../images/project_grocery.png'
+import Minigram from '../images/project_minigram.png'
 import { Link } from 'react-router-dom'
 const Projects = () => {
 	return (
@@ -9,6 +10,10 @@ const Projects = () => {
 			<div className="projects">
 				<h1 className="projects__title">My Personal Projects</h1>
 				<div className="projects__list">
+					<Link to="/projects/minigram" className="projects__item">
+						<img src={Minigram} alt="minigram social media" />
+						<h2>Minigram Social Media App</h2>
+					</Link>
 					<Link to="/projects/reddit" className="projects__item">
 						<img src={Reddit} alt="reddit ui clone" />
 						<h2>Reddit UI Clone</h2>
