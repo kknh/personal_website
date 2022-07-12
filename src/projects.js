@@ -5,9 +5,9 @@ import minigramImg from './images/project_minigram.png'
 const projects = {
 	grocery: {
 		id: '1',
-		title: 'Grocery Todo',
+		title: 'Grocery To-do',
 		image: groceryImg,
-		desc: 'Simple todo app with CRUD operations and alert messages',
+		desc: 'Simple to-do app with CRUD operations and alert messages',
 		tech: 'ReactJS, HTML, CSS, Web Storage API',
 		url: 'https://jade-tiramisu-5bc033.netlify.app',
 		github: 'https://github.com/kknh/grocery_todo_app',

@@ -23,8 +23,8 @@ const Projects = () => {
 						<h2>Simple Quiz</h2>
 					</Link>
 					<Link to="/projects/grocery" className="projects__item">
-						<img src={Grocery} alt="grocery todo app" />
-						<h2>Grocery Todo</h2>
+						<img src={Grocery} alt="grocery to-do app" />
+						<h2>Grocery To-do</h2>
 					</Link>
 				</div>
 			</div>
